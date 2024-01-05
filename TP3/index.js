@@ -11,7 +11,7 @@ const app = express();
 
 //Instanciamos nuestros middlewares
 app.use(express.json());
-// app.use(morgan(''));
+// app.use(morgan('tiny'));
 
 //Instanciamos nuestras rutas
 app.use ('/categories',categoriesRoutes);
@@ -21,8 +21,7 @@ app.use ('/products', productsRoutes);
 mongoose
     .connect(MONGO_CONFIG.URI)
     .then(() => logger.info({ message: 'Base de datos conectada' }))
-    .catch(() => logger.error({ message: 'No se pudo conectar a mongo' }))
-
+    .catch(() => logger.error({ message: 'No se pudo conectar a mongo' }));
 //Instanciamos el puerto
 app.listen ( EXPRESS_CONFIG.PORT, ()=> logger.info(
     {

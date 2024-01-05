@@ -8,9 +8,9 @@ const requestValidation = (req, res, next) => {
 
     next();
 };
-
+//middleware para menejar errores  y no crashee nuestra aplicacion
 const errorMiddleware = (err, req, res, next) => {
-    logger.error(err);
+    logger.error(err.message);
     res.status(500);
     res.json({ message: 'Internal server error' });
 };

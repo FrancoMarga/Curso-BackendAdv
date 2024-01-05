@@ -1,1 +1,46 @@
 {"level":"error","message":"No se pudo conectar a mongo","service":"user-service"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":{"err":{}},"service":"user-service"}
+{"code":11000,"index":0,"keyPattern":{"name":1},"keyValue":{"name":"Torta Frita"},"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":{},"service":"user-service"}
+{"level":"error","message":{},"service":"user-service"}
+{"level":"error","message":{},"service":"user-service"}
+{"level":"error","message":{},"service":"user-service"}
+{"level":"error","message":{},"service":"user-service"}
+{"level":"error","message":"","service":"user-service"}
+{"code":11000,"index":0,"keyPattern":{"name":1},"keyValue":{"name":"Pochoclo"},"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"code":11000,"index":0,"keyPattern":{"name":1},"keyValue":{"name":"Pochoclo"},"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Cannot read properties of null (reading 'save')","service":"user-service"}
+{"level":"error","message":"Cannot read properties of null (reading 'products')","service":"user-service"}
+{"level":"error","message":"Cannot read properties of null (reading 'products')","service":"user-service"}
+{"level":"error","message":"Cannot set properties of null (setting 'products')","service":"user-service"}

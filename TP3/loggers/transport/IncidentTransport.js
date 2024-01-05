@@ -9,6 +9,7 @@ class IncidentTransport extends Transport {
 
     // Override del método log() para personalizar el comportamiento del transporte
     log(info,callback){
+
         if (info.level === 'error'){
             setImmediate(async () => {
                 const incident = new incidentModel({

@@ -64,7 +64,7 @@ const updateAuthor = async (req, res, next) => {
             //si no existe esta linea maneja errores
             res.status(400);
             return res.json({ message : `El autor con el id:${id} no fue encontrado.` });
-        }
+        }}
 
         //Guardamos el nombre del auto anterior para mostrarlo en el mensaje de confirmacion de la peticion
         const oldAuthor = `${author.firstName} ${author.lastName}`;
